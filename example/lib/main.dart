@@ -106,6 +106,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
     final stepper = CoolStepper(
       showErrorSnackbar: false,
+      onStepChange: (int changedValue) {
+        var i = changedValue;
+      },
       onCompleted: () {
         debugPrint('Steps completed!');
       },
