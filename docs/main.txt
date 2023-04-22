@@ -1,0 +1,18 @@
+
+-[ ] How to change a existing flutter package 
+https://medium.com/flutter-community/how-to-modify-an-existing-pub-package-to-use-in-your-flutter-project-4e909452ee66
+
+Step 1: Find the pub package you want to modify.
+Step 2: Go to the git repository of that package.
+Step 3: Fork Repository (you need to log in with your git account on Github).
+On clicking the fork button, it will create a repository in your GitHub account.
+Clone your repository and make your changes into the package.
+Step 4: Commit and Push your changes to your forked repository.
+Step 5: Refresh your forked repository and you’ll find your latest commit there.
+if you don’t find your commits in the forked repository then please verify the git user.
+
+How to add this modified package into your flutter project?
+
+  [package-name]:
+    git:
+      url: https://github.com/[git-username]/[git-repository-name]
